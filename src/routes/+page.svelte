@@ -24,3 +24,14 @@
 		</div>
 	{/each}
 </div>
+
+<style>
+	img {
+		border-radius: 8px;
+		transition: transform 300ms cubic-bezier(0.175, 0.885, 0.32, 2.275);
+	}
+
+	img:hover {
+		transform: scale(1.1);
+	}
+</style>
