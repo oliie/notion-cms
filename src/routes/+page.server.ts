@@ -9,7 +9,7 @@ type CatImage = {
   created: string;
 };
 
-export const prerender = true;
+// export const prerender = true;
 const notion = new Client({ auth: NOTION_API_KEY });
 
 export const load: PageServerLoad = async () => {
